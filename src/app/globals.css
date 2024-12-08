@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap');
+
+@media (min-width: 1024px) {
+  .responsive-heading {
+    font-size: 5vw; /* Adjusts the font size based on viewport width */
+  }
+}
+
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -17,8 +27,9 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Inter', sans-serif;
 }
+
 
 @layer utilities {
   .text-balance {
