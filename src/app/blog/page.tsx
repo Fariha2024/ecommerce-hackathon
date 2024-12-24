@@ -2,6 +2,7 @@
 
 import React from "react";
 import ContacHeroSection from "../components/conhero";
+import Image from 'next/image';
 
 const Blog = () => {
   return (
@@ -12,7 +13,7 @@ const Blog = () => {
       <div className="max-w-4xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
         {/* Image Section */}
         <div>
-          <img
+        <Image
             src="https://via.placeholder.com/800x400"
             alt="Blog Image"
             className="w-full h-64 object-cover"

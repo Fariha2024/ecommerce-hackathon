@@ -2,30 +2,6 @@ import Image from 'next/image';
 
 
 
-// Interface to define the structure of the image card data
-interface CardData {
-  imageSrc: string;
-  title: string;
-  
-}
-
-const cardData: CardData[] = [
-  {
-    imageSrc: "/dining.png",
-    title: "Shooting Stars",
-    
-  },
-  {
-    imageSrc: "/living.png",
-    title: "The Catalyzer",
-   
-  },
-  {
-    imageSrc: "/bedroom.png",
-    title: "The 400 Blows",
-  },
-];
-
 const Products: React.FC = () => {
   return (
 
@@ -45,6 +21,7 @@ const Products: React.FC = () => {
       </div>
     </div>
     <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-8">
+      
       <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
         <div className="relative rounded-lg overflow-hidden">
           <Image
@@ -53,7 +30,7 @@ const Products: React.FC = () => {
             src="/dining.png"
             width={381} // Default width
             height={480} // Default height
-            
+            title='Shooting Stars'
           />
           <div className="absolute inset-0 flex items-center justify-center bg-opacity-50 text-white">
            
@@ -74,6 +51,8 @@ const Products: React.FC = () => {
             src="/living.png"
             width={381} // Default width
             height={480} // Default height
+            title= "The Catalyzer"
+   
           />
           <div className="absolute inset-0 flex items-center justify-center  bg-opacity-50 text-white">
            
@@ -94,6 +73,7 @@ const Products: React.FC = () => {
             src="/bedroom.png"
             width={381} // Default width
             height={480} // Default height
+            title="The 400 Blows"
           />
           <div className="absolute inset-0 flex items-center justify-center  bg-opacity-50 text-white">
            

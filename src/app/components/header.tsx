@@ -1,6 +1,7 @@
 
 import Link from "next/link";
 import {  FiSearch, FiHeart, FiShoppingCart } from "react-icons/fi";
+import Image from 'next/image';
 function Header() {
   
 
@@ -9,7 +10,7 @@ function Header() {
       <nav className="w-full h-[4.75rem] bg-zinc-50 flex justify-between items-center px-4 md:px-8 lg:px-16">
         {/* Logo */}
         <div className="flex items-center">
-          <img
+          <Image
             src="/Meubel House_Logos-05(1).png"
             alt="logo"
             className="w-14 h-14 object-contain"

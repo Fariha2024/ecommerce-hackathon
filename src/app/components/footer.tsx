@@ -1,4 +1,8 @@
 
+
+/* eslint-disable @typescript-eslint/no-unused-vars */
+
+
 import React from 'react'
 import { LuSendHorizontal } from "react-icons/lu";
 import { CiTwitter } from "react-icons/ci";
@@ -49,28 +53,28 @@ const Footer = () => {
 }
 export default Footer;
         
-        {/* <h2 className='w-[148px] h-[28px] mb-4 font-poppins text-[20px] font-[500] text-[#FAFAFA]'>Download App</h2>
-        <p className='w-[194px] opacity-[70%] h-[48px] font-poppins text-[12px] font-normal text-[#FAFAFA]'>Save $3 with App New User Only</p> */}
-        {/* <div className='flex gap-3'>
+        /* <h2 className='w-[148px] h-[28px] mb-4 font-poppins text-[20px] font-[500] text-[#FAFAFA]'>Download App</h2>
+        <p className='w-[194px] opacity-[70%] h-[48px] font-poppins text-[12px] font-normal text-[#FAFAFA]'>Save $3 with App New User Only</p> */
+        /* <div className='flex gap-3'>
         <Image src="/images/Qr.png" alt="Qr code" width={100} height={100} className='w-[80px] h-[80px]'/>
         <div>
         <Image src="/images/goo.png" alt="Qr code" width={100} height={100} className='w-[108px] h-[38px] mt-1 rounded-[4px]'/>
         <Image src="/images/app.png" alt="Qr code" width={100} height={100} className='w-[108px] h-[38px] mt-1 rounded-[4px]'/>  
         </div>
-        </div> */}
-        {/* <div className='flex gap-[24px] w-[168px] h-[24px] text-[#FAFAFA] mt
+        </div> */
+        /* <div className='flex gap-[24px] w-[168px] h-[24px] text-[#FAFAFA] mt
         -3'>
         <FiFacebook className='w-[24px] h-[24px]' />
         <CiTwitter  className='w-[24px] h-[24px]'/>
         <FaInstagram className='w-[24px] h-[24px]' />
         <FiLinkedin  className='w-[24px] h-[24px]'/>
         </div>
-        </div> */}
-    {/* </div>
+        </div> */
+    /* </div>
   )
 }
 
-export default Footer */}
+export default Footer */
 
 
 
