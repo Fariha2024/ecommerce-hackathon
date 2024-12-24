@@ -7,7 +7,8 @@ const ContactPage = () => {
     
     <div>
       {/* Hero Section */}
-      <ContacHeroSection />
+      <ContacHeroSection title="Contact" />
+      
       
       {/* Get in Touch Section */}
       <div className="flex flex-col gap-6 p-6">
