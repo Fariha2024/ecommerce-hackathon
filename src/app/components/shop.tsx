@@ -36,10 +36,13 @@ const products: Product[] = [
   // Add more products here as needed
 ];
 
+// Repeat the products to fill a 6x6 grid
+const repeatedProducts = Array.from({ length: 16 }, (_, i) => products[i % products.length]);
+
 const ProductGrid: React.FC = () => {
   return (
-    <div className="grid grid-cols-4 gap-6 p-6">
-      {products.map((product, index) => (
+    <div className="  sm:grid-cols-2 md:grid-cols-4 grid grid-cols-4 gap-6 p-6">
+      {repeatedProducts.map((product, index) => (
         <div key={index} className="flex flex-col items-start bg-gray-50 py-8 px-4 border-r-2 border-gray-400">
           {/* Image */}
           <div className="relative w-72 h-72 mb-4">

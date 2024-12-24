@@ -6,24 +6,23 @@ import Image from 'next/image';
 interface CardData {
   imageSrc: string;
   title: string;
-  description: string;
+  
 }
 
 const cardData: CardData[] = [
   {
     imageSrc: "/dining.png",
     title: "Shooting Stars",
-    description: "Modern and unique designs that shine like stars.",
+    
   },
   {
     imageSrc: "/living.png",
     title: "The Catalyzer",
-    description: "Furniture that acts as a catalyst for creative spaces.",
+   
   },
   {
     imageSrc: "/bedroom.png",
     title: "The 400 Blows",
-    description: "Bold and daring furniture to make a statement.",
   },
 ];
 

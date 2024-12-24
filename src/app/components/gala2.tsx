@@ -27,7 +27,7 @@ const cardData = [
     price: 'Rs 250000',
   },
   {
-    imageUrl: '/image5.png.png',
+    imageUrl: '/image5.png',
     title: 'Grifo',
     description: 'Night Lamp',
     price: 'Rs 500000',
@@ -75,10 +75,10 @@ const CustomProductCards = () => {
               />
 
               {/* Product Information */}
-              <div className="text-center  inset-0 flex items-center justify-center bg-opacity-50 text-white">
-                <h2 className="text-lg font-bold text-zinc-950">{item.title}</h2>
-                <p className="text-sm text-gray-600 mt-2">{item.description}</p>
-                <p className="text-xl font-bold text-zinc-950 mt-4">{item.price}</p>
+              <div className="text-left">
+                <h2 className="text-1xl font-semibold text-zinc-950 mb-2 mt-2">{item.title}</h2>
+                <p className="text-gray-600 text-base mb-2">{item.description}</p>
+                <p className="text-1xl font-semibold text-zinc-950">{item.price}</p>
               </div>
             </div>
           </div>
