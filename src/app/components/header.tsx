@@ -11,10 +11,15 @@ function Header() {
         {/* Logo */}
         <div className="flex items-center">
           <Image
-            src="/Meubel House_Logos-05(1).png"
+            src="/logo.png"
             alt="logo"
-            className="w-14 h-14 object-contain"
-          />
+            className="object-contain"
+    width={56}  // Set the width for the image
+    height={56}  // Set the height for the image
+  
+  />
+          
+          
           <h1 className="text-zinc-950 text-2xl font-bold pl-4 md:text-3xl lg:text-4xl">
             Furniro
           </h1>

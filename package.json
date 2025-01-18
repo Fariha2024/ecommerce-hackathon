@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.1",
+    "@sanity/image-url": "^1.1.0",
+    "@sanity/vision": "^3.70.0",
     "autoprefixer": "^10.4.20",
     "bcryptjs": "^2.4.3",
     "class-variance-authority": "^0.7.1",
@@ -21,11 +23,14 @@
     "next": "14.2.20",
     "next-auth": "^4.24.11",
     "next-i18next": "^15.4.1",
+    "next-sanity": "^9.8.38",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-i18next": "^15.2.0",
     "react-icons": "^5.4.0",
-    "tailwind-merge": "^2.5.5",
+    "sanity": "^3.70.0",
+    "styled-components": "^6.1.14",
+    "tailwind-merge": "^2.6.0",
     "tailwindcss-animate": "^1.0.7",
     "zxcvbn": "^4.4.2"
   },
@@ -34,14 +39,14 @@
     "@types/jsonwebtoken": "^9.0.7",
     "@types/multer": "^1.4.12",
     "@types/next-auth": "^3.13.0",
-    "@types/node": "^20",
-    "@types/react": "^18",
+    "@types/node": "^20.17.10",
+    "@types/react": "^18.3.18",
     "@types/react-dom": "^18",
     "@types/zxcvbn": "^4.4.5",
     "eslint": "^8",
     "eslint-config-next": "14.2.20",
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.17",
-    "typescript": "^5"
+    "typescript": "^5.7.2"
   }
 }

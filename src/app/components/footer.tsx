@@ -12,15 +12,15 @@ import { FiLinkedin } from "react-icons/fi";
 import Image from 'next/image';
 const Footer = () => {
   return (
-    <div className='w-[1270px] h-[440px] flex justify-evenly pt-[10%] bg-white'>
+    <div className='w-full h-auto flex justify-evenly flex-col lg:flex-row pt-[10%] bg-white'>
         <div>
-        <h2 className='h-[24px] w-[118px] text-[24px] mb-4 font-inter font-bold text-[#000000] 3%'>Funiro</h2>
+        <h2 className=' text-sm sm:text-base md:text-lg lg:text-xl h-[24px] w-[118px] text-[24px] mb-4 font-inter font-bold text-[#000000] 3%'>Funiro</h2>
         <br/>
         {/* <h2 className='w-[101px] h-[28px] font-poppins mb-3 font-[500] text-[20px] text-[#FAFAFA]'>Subscribe</h2> */}
-        <p className='font-poppins text-[16px] font-normal mb-3 w-[206px] text-[#000000]  h-[24px]'>400 University drive suits 200 carol Gables</p>
+        <p className='font-poppins text-[16px] font-normal mb-3  text-sm sm:text-base md:text-lg lg:text-xl w-[206px] text-[#000000]  h-[24px]'>400 University drive suits 200 carol Gables</p>
         {/* <button className='flex text-[#FAFAFA] w-[217px] gap-[10px] pl-[16px] pt-[12px] pb-[12px] border-[1.5px] rounded-[4px] h-[48px]'><input type="email" placeholder='Enter your email' className='w-[150px] bg-[#000000] text-[#FAFAFA]'/><LuSendHorizontal className='w-[20px] h-[18px] mt-1 text-[#FAFAFA]'/></button> */}
         <br/>
-        <p className='font-poppins text-[16px] font-normal mb-3 w-[206px] text-[#000000] h-[24px]'>FL 33134 USA</p>
+        <p className=' text-sm sm:text-base md:text-lg lg:text-xl font-poppins text-[16px] font-normal mb-3 w-[206px] text-[#000000] h-[24px]'>FL 33134 USA</p>
         <br/>
         <br/>
         <br/>
