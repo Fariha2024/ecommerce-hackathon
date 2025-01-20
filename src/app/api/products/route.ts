@@ -1,3 +1,7 @@
+
+//src/app/api/products/route.ts
+
+
 import { client } from "@/sanity/lib/client";
 import { NextResponse } from "next/server";
 import { Product } from "../../lib/interface";

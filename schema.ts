@@ -1,5 +1,4 @@
-import { product } from './product';
-import { createSchema } from 'sanity';
+import { product } from './src/sanity/schemaTypes/product';
 
 export const schema = {
   name: 'default',
